@@ -19,8 +19,11 @@ The GROUP BY clause in SQL is used to arrange identical data into groups based o
 **Syntax**
 
 SELECT column_name, AGGREGATE_FUNCTION(column_name)
+
 FROM table_name
+
 WHERE conditions
+
 GROUP BY column_name;
 
 column_name: The column(s) on which you want to group your data.
